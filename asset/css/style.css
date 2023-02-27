@@ -2,9 +2,42 @@
 .debug [class ^='col']{
     background-color: green;
 }
+/* #region utilitys */
+:root{
+    --headerbkg: #2c3e50;
+    --iconmenu: #888888;
+    --borderquareicon: #dddddd;
+
+}
+
+
+
+
+
+
+
+
+
+
 /* smartphone-frist base */
+/* #region header */
+nav{
+    background-color: var(--headerbkg);
+}
 .menumd{
     display: none;
 }
+.square_ico{
+    border-color: var(--borderquareicon);
+    border-style: solid;
+    height: 2rem;
+    width: 2rem;
+    border-width: 0.1rem;
+}
+.square_ico i{
+    color: var(--iconmenu);
+}
+/* #endregion header */
+
 /* smartphone > up responsive */
 
