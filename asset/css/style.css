@@ -10,7 +10,7 @@
     --borderquareicon: #dddddd;
     --startbkg: #1abc9c;
     --textportfolio: #333333;
-
+    --span-location: #1cb79a;
 }
 
 
@@ -129,4 +129,19 @@ nav {
 }
 
 /* #endregion section contact */
+/* #region section location */
+
+.location{
+    background-color: var(--headerbkg);
+}
+.location span{
+    color: var(--span-location);
+}
+.location .ball {
+    width: 34px !important;
+    height: 34px;
+    aspect-ratio: 1/1 !important;
+}
+/* #endregion section location */
+
 /* smartphone > up responsive */
