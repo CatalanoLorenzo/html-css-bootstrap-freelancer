@@ -1,14 +1,15 @@
 /* debug */
-.debug [class ^='col']{
+.debug [class ^='col'] {
     background-color: green;
 }
+
 /* #region utilitys */
-:root{
+:root {
     --headerbkg: #2c3e50;
     --iconmenu: #888888;
     --borderquareicon: #dddddd;
     --startbkg: #1abc9c;
-
+    --textportfolio: #333333;
 
 }
 
@@ -23,48 +24,76 @@
 
 /* smartphone-frist base */
 /* #region header */
-nav{
+nav {
     background-color: var(--headerbkg);
 }
-.menumd{
+
+.menumd {
     display: none;
 }
-.square_ico{
+
+.square_ico {
     border-color: var(--borderquareicon);
     border-style: solid;
     height: 2rem;
     width: 2rem;
     border-width: 0.1rem;
 }
-.square_ico i{
+
+.square_ico i {
     color: var(--iconmenu);
 }
+
 /* #endregion header */
 /* #region section start */
-.start{
+.start {
     background-color: var(--startbkg);
 }
+
 /* #region section top */
-.start .top .img{
+.start .top .img {
     height: 270px;
     aspect-ratio: 1/1;
 }
-.start .top .img svg{
+
+.start .top .img svg {
     max-width: 100%;
     max-height: 100%;
 }
+
 /* #endregion section top */
 /* #region section bottom */
-.start .bottom .spacer .line{
+.start .bottom .spacer .line,
+.portfolio .spacer .line {
     height: 0.1rem;
     width: 15%;
 }
-.start .bottom p{
+
+.start .bottom p {
     font-size: small;
 }
+
 /* #endregion section bottom */
 
 /* #endregion section start */
+/* #region section portfolio */
+.portfolio h2 {
+    color: var(--textportfolio);
+}
 
+.portfolio .spacer {
+    color: var(--headerbkg);
+}
+.portfolio .spacer .line{
+    background-color: var(--headerbkg);
+}
+.portfolio .img {
+    overflow: hidden;
+}
+.portfolio .img img{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+/* #endregion section portfolio */
 /* smartphone > up responsive */
-
