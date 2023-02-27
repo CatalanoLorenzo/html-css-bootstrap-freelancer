@@ -45,21 +45,21 @@ nav{
     background-color: var(--startbkg);
 }
 /* #region section top */
-.start .col .top .img{
+.start .top .img{
     height: 270px;
     aspect-ratio: 1/1;
 }
-.start .col .top .img svg{
+.start .top .img svg{
     max-width: 100%;
-    aspect-ratio: 1/1;
+    max-height: 100%;
 }
 /* #endregion section top */
 /* #region section bottom */
-.start .container .row .col-8 .bottom .spacer .line{
+.start .bottom .spacer .line{
     height: 0.1rem;
-    width: 30%;
+    width: 15%;
 }
-.start .container .row .col-8 .bottom p{
+.start .bottom p{
     font-size: small;
 }
 /* #endregion section bottom */
