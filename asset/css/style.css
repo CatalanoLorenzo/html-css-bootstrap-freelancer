@@ -11,6 +11,8 @@
     --startbkg: #1abc9c;
     --textportfolio: #333333;
     --span-location: #1cb79a;
+    --locatiobkg: #3a546d;
+    --footerbkg: #2c3e50;
 }
 
 
@@ -132,7 +134,7 @@ nav {
 /* #region section location */
 
 .location{
-    background-color: var(--headerbkg);
+    background-color: var(--locatiobkg);
 }
 .location span{
     color: var(--span-location);
@@ -143,5 +145,10 @@ nav {
     aspect-ratio: 1/1 !important;
 }
 /* #endregion section location */
+/* #region footer */
+footer{
+    background-color: var(--footerbkg);
+}
 
+/* #endregion footer */
 /* smartphone > up responsive */
