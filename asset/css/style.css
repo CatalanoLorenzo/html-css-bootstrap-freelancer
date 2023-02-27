@@ -64,10 +64,19 @@ nav {
 /* #endregion section top */
 /* #region section bottom */
 .start .bottom .spacer .line,
-.portfolio .spacer .line {
-    height: 0.1rem;
+.portfolio .spacer .line,
+.about .spacer .line{
+    height: 0.2rem;
     width: 15%;
 }
+.start .bottom .spacer  i,
+.portfolio .spacer  i,
+.about .spacer  i{
+    scale: 1.5;
+}
+
+
+
 
 .start .bottom p {
     font-size: small;
@@ -96,4 +105,17 @@ nav {
     object-fit: cover;
 }
 /* #endregion section portfolio */
+/* #region section about */
+.about{
+    background-color: var(--startbkg);
+}
+
+
+
+
+
+
+/* #endregion section about */
+
+
 /* smartphone > up responsive */
