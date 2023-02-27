@@ -65,13 +65,15 @@ nav {
 /* #region section bottom */
 .start .bottom .spacer .line,
 .portfolio .spacer .line,
-.about .spacer .line{
+.about .spacer .line,
+.contact .spacer .line{
     height: 0.2rem;
     width: 15%;
 }
 .start .bottom .spacer  i,
 .portfolio .spacer  i,
-.about .spacer  i{
+.about .spacer  i,
+.contact .spacer i{
     scale: 1.5;
 }
 
@@ -93,7 +95,8 @@ nav {
 .portfolio .spacer {
     color: var(--headerbkg);
 }
-.portfolio .spacer .line{
+.portfolio .spacer .line,
+.contact .spacer .line{
     background-color: var(--headerbkg);
 }
 .portfolio .img {
@@ -109,13 +112,21 @@ nav {
 .about{
     background-color: var(--startbkg);
 }
-
-
-
-
-
-
 /* #endregion section about */
+/* #region section contact */
+.contact {
+    color: var(--textportfolio);
+}
+.contact .container_input >  input{
+    color: var(--headerbkg);
+}
+.contact .container_input .message{
+    width: 100%;
+}
+.contact .sendbtn{
+    width: 20%;
+    background-color: var(--startbkg);
+}
 
-
+/* #endregion section contact */
 /* smartphone > up responsive */
