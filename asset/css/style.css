@@ -33,7 +33,13 @@ nav {
 .menumd {
     display: none;
 }
+.menumd li{
+    list-style-type: none;
 
+}
+.menusm{
+    display: flex;
+}
 .square_ico {
     border-color: var(--borderquareicon);
     border-style: solid;
@@ -54,7 +60,6 @@ nav {
 
 /* #region section top */
 .start .top .img {
-    height: 270px;
     aspect-ratio: 1/1;
 }
 
@@ -124,6 +129,7 @@ nav {
 }
 .contact .container_input .message{
     width: 100%;
+
 }
 .contact .sendbtn{
     background-color: var(--startbkg);
@@ -151,3 +157,12 @@ footer{
 
 /* #endregion footer */
 /* smartphone > up responsive */
+@media (min-width: 992px){
+    .menumd {
+        display: block;
+    }
+
+    .menusm{
+        display: none;
+    }
+}
