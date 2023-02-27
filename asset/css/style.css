@@ -1,0 +1,10 @@
+/* debug */
+.debug [class ^='col']{
+    background-color: green;
+}
+/* smartphone-frist base */
+.menumd{
+    display: none;
+}
+/* smartphone > up responsive */
+
