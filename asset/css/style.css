@@ -29,29 +29,6 @@
 nav {
     background-color: var(--headerbkg);
 }
-
-.menumd {
-    display: none;
-}
-.menumd li{
-    list-style-type: none;
-
-}
-.menusm{
-    display: flex;
-}
-.square_ico {
-    border-color: var(--borderquareicon);
-    border-style: solid;
-    height: 2rem;
-    width: 2.5rem;
-    border-width: 0.1rem;
-}
-
-.square_ico i {
-    color: var(--iconmenu);
-}
-
 /* #endregion header */
 /* #region section start */
 .start {
@@ -156,13 +133,3 @@ footer{
 }
 
 /* #endregion footer */
-/* smartphone > up responsive */
-@media (min-width: 992px){
-    .menumd {
-        display: block;
-    }
-
-    .menusm{
-        display: none;
-    }
-}

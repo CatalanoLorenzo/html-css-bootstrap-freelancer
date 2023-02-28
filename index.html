@@ -21,28 +21,28 @@
 <body class="">
     <!-- #region header -->
     <header>
-        <nav class="text-white py-4">
-            <div class="container ">
-                <div class="row justify-content-between align-items-center ">
-                    <div class="col fs-6 ">
-                        <h2>START BOOTSTRAP</h2>
-                    </div>
-                    <div class="col menusm justify-content-end ">
-                        <div class="square_ico border-1 rounded-2 justify-content-center d-flex align-items-center">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                    <div class="col menumd ">
-                        <ul class="d-flex justify-content-around">
-                            <li class="">PORTFOLIO</li>
-                            <li>ABOUT</li>
-                            <li>CONTACT</li>
-                        </ul>
-                    </div>
-
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid justify-content-between text-end">
+              <a class="navbar-brand  text-white" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end text-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active  text-white" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">CONTACT</a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
     <!-- #endregion header -->
 
@@ -51,7 +51,7 @@
         <!-- #region section start -->
         <section class="start text-white">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center flex-column align-items-center">
                     <div class="col-4">
                         <div class="top  d-flex justify-content-center flex-column">
                             <div class="img pt-3">
@@ -479,12 +479,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-10">
+                    <div class="col">
                         <h1 class="pt-3 text-center">START BOOTSTRAP</h1>
                         <div class="bottom d-flex justify-content-center flex-column">
                             <div class="spacer py-2 d-flex align-items-center justify-content-center">
                                 <div class="line bg-white"></div>
-                                <i class="fa-solid fa-star px-1"></i>
+                                <i class="fa-solid fa-star px-3"></i>
                                 <div class="line bg-white"></div>
                             </div>
                             <p class="text-center ">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
@@ -501,7 +501,7 @@
             <h2 class="text-center pt-4">PORTFOLIO</h2>
             <div class="spacer py-2 d-flex align-items-center justify-content-center">
                 <div class="line "></div>
-                <i class="fa-solid fa-star px-1"></i>
+                <i class="fa-solid fa-star px-3"></i>
                 <div class="line "></div>
             </div>
             <div class="container pb-5">
@@ -544,7 +544,7 @@
         <section class="about text-white p-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col">
                         <h2 class="text-center">ABOUT</h2>
                         <div class="spacer py-2 d-flex align-items-center justify-content-center">
                             <div class="line bg-white"></div>
@@ -582,34 +582,32 @@
             <h2 class="text-center pt-5">CONTACT ME</h2>
             <div class="spacer py-2 d-flex align-items-center justify-content-center">
                 <div class="line "></div>
-                <i class="fa-solid fa-star px-1"></i>
+                <i class="fa-solid fa-star px-3"></i>
                 <div class="line "></div>
             </div>
             <div class="container">
                 <div class="row justify-content-center flex-column align-items-center">
-                    <div class="col-8 col-md-10">
-                        <div class="container_input p-2 border border-top-0 border-end-0 border-start-0 ">
-                            <input type="text" class="border-0" placeholder="Name">
+                    <div class="col col-md-10 px-5">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control border border-top-0 border-end-0 border-start-0" placeholder="Username" aria-label="Recipient's username">
                         </div>
                     </div>
-                    <div class="col-8 col-md-10">
-                        <div class="container_input p-2 border border-top-0 border-end-0 border-start-0">
-                            <input type="text" class="border-0" placeholder="Email Address">
+                    <div class="col col-md-10 px-5">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control border border-top-0 border-end-0 border-start-0" placeholder="E-mail Anddress" aria-label="Recipient's E-mail Anddress">
                         </div>
                     </div>
-                    <div class="col-8 col-md-10">
-                        <div class="container_input p-2 border border-top-0 border-end-0 border-start-0">
-                            <input type="text" class="border-0" placeholder="Phone Number">
+                    <div class="col col-md-10 px-5" >
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control border border-top-0 border-end-0 border-start-0" placeholder="Phone Number" aria-label="Recipient's Phone Number">
                         </div>
                     </div>
-                    <div class="col-8 col-md-10">
-                        <div class="container_input p-2 ">
-                            <textarea placeholder="Message" id="" cols="30" rows="5"
-                                class="p-2 border border-top-0 border-end-0 border-start-0 message"></textarea>
-                        </div>
+                    <div class="col col-md-10 px-5">
+                        <div class="input-group">
+                            <textarea class="form-control  border border-top-0 border-end-0 border-start-0" placeholder="Message" aria-label="With textarea"></textarea>
+                          </div>
                     </div>
-                    <div class="col-8  col-md-10 pb-3 pt-1">
-
+                    <div class="col col-md-10 ps-5 pt-2 pb-3 ">
                         <button class="btn sendbtn py-1 px-3 text-white" type="submit">Send</button>
                     </div>
                 </div>
